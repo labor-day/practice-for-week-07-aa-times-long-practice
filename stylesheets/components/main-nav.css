@@ -1,1 +1,13 @@
 /* Your code here */
+#main-nav-container {
+display: flex;
+justify-content: center;
+}
+.main-nav {
+  display: flex;
+}
+
+.main-nav li {
+  padding: 10px;
+  font-size: 12px;
+}

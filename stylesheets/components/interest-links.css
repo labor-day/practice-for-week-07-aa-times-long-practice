@@ -1,1 +1,78 @@
 /* Your code here */
+#interests {
+  border: 2px solid black;
+  border-right: none;
+  border-left: none;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+  grid-template-rows: 1;
+  padding: 10px;
+}
+
+.interest-bar__story-container {
+  border-right: 1px solid #f7f7f5;
+}
+
+.interests-bar__headline {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.interests-bar__image {
+  height:75px;
+  width: 75px;
+}
+
+.interests-bar__story {
+  font-size: 12px;
+}
+
+#plug {
+  border-right: none;
+}
+
+.stocks {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #f7f7f5;
+  border-top: none;
+  border-bottom: none;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.interests-bar__stock-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 10px;
+  border-bottom: 1px solid #f7f7f5;
+}
+
+.interests-bar__price {
+  font-weight: bold;
+  color: green;
+
+}
+
+#cat-stock {
+  border-bottom: none;
+}
+
+#sun {
+  height: 75px;
+  width: 75px;
+}
+
+.interest-bar__big-text {
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+}
