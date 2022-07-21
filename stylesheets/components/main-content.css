@@ -98,6 +98,29 @@ h4 {
   padding: 10px;
 }
 
+@media screen and (max-width: 1200px) {
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1;
+  }
+
+  .main-article {
+    border-right: none;
+  }
+
+  .right-side {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #interests {
+    display: none;
+  }
+}
+
+
 .right-article {
   display: flex;
   flex-direction: column;
@@ -150,4 +173,3 @@ h4 {
   font-weight: bold;
   display: block;
 }
-
