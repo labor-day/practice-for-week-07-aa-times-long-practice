@@ -1,1 +1,153 @@
 /* Your code here */
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1;
+}
+
+h1 {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 15px 10px 10px 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 0;
+  padding: 5px 0;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.byline {
+  color: #999;
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.comments {
+  color: #326891;
+  font-size: 12px;
+}
+
+.main-article {
+  border-right: 1px solid #f7f7f5;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-article ul{
+  list-style: disc;
+  padding: 5px 15px;
+}
+
+.main-article li {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.subtitle-and-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.warning {
+  font-size: 12px;
+}
+
+.additional-articles {
+  border: 1px solid black;
+  border-right: none;
+  border-left:none;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1;
+}
+
+.bottom-articles {
+  padding: 10px 10px 30px 10px;
+}
+
+.bottom-story {
+  font-size: 12px;
+}
+
+#cat-academy {
+  border-left: 1px solid #f7f7f5;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.right-article {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #f7f7f5;
+  padding-bottom: 5px;
+}
+
+.right-story {
+  font-size: 12px;
+  padding: 10px 0px;
+}
+
+.small {
+  padding: 5px 0px;
+  font-size: 12px;
+}
+
+.office {
+  padding-top: 5px;
+}
+
+.undetailed-stories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1;
+}
+
+.four {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 25% 25% 25% 25%;
+  border-right: 1px solid #f7f7f5;
+}
+
+.three {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-left: 5px;
+}
+
+.undetailed-story {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #f7f7f5;
+  justify-content: center;
+}
+.title {
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+}
+
