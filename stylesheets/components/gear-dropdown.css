@@ -9,6 +9,11 @@
   right: 5px;
   top: 2.5em;
   width: 200px;
+  z-index: 1;
+}
+
+.pref--hidden {
+  display: none;
 }
 
 

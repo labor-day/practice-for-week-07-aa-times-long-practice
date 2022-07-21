@@ -33,6 +33,10 @@
   padding-right: 20px;
 }
 
+.dropdown {
+  position: relative;
+}
+
 .masthead__technologies {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
